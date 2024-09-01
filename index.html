@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--GOOGLE FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- FIM FONTE-->
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Nathalia</title>
+</head>
+<body>
+
+
+    <header>
+        <div class="interface">
+           <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Logo do Portfólio" width="250px">
+                </a>
+           </div> <!--fecha logo-->
+
+        <nav class="menu-desktop"> <!--CLASSE PARA CRIAR O MENU COM OS LINKS-->
+            <ul><!--criando lista-->
+                <li><a href="#sobre"> Sobre mim </a></li> <!-- Criando as páginas requisitas no trabalho-->
+                <li><a href="#formacao"> Formação Educacional </a></li>
+                <li><a href="#projetos"> Projetos </a></li>
+                <li><a href="#contato"> Contato </a></li> 
+                <li><a href="#formulario"> Fale Comigo </a></li> 
+            </ul>
+        </nav>
+
+        </div> <!--fecha interface-->
+    </header>
+
+<main>
+    <section class="topo" id="sobre">
+        <div class="interface">
+            <div class="flex"> <!--classe universal-->
+                <div class="textosobre">
+                    <h1>Oi! Eu sou a Nathalia</h1>
+                    <p>Tenho 23 anos, adoro jogar videogame, principalmente The Legend of Zelda, que inspirou o meu apelido digital com a personagem Midna. Também adoro ler mangás/livros/quadrinhos e desenhar!</p>
+                </div><!--final texto sobre-->
+
+                <div class="imagemprincipal">
+                    <img src="images/midna.png" alt="Foto da Personagem">
+                </div><!--final da imagem-->
+
+            </div> <!-- final classe universal-->
+        </div><!-- final interface-->
+    </section><!-- final do topo-->
+
+    <section class="FormacaoEducacional" id="formacao">
+        <div class="interface">
+            <h2 class="titulo">FORMAÇÃO EDUCACIONAL E EXPERIENCIAS</h2>
+            <div class="flex">
+                <div class="formacao-box">
+                    <img src="images/faculdade.png">
+                    <h3>Faculdade</h3>
+                    <p>Formada em Logística - UCAM. <br> Cursando: <br> Ciencias Economicas - UFF <br> Análise e Desenvolvimento de Sistemas - UNINTER</p>
+                </div><!--final da caixa de formaçãofaculdade-->
+
+                <div class="formacao-box">
+                    <img src="images/trabalho.png">
+                    <h3>Experiencias</h3>
+                    <p>Atualmente presto serviços como Administrative Consultant na DB Project Design, e faço estágio Administrativo-Financeiro e de Projetos na Agencia WAG. <br> Anteriormente fiz um estágio na prefeitura da minha cidade em Análise de Dados, no setor de Controle e Transparencia</p>
+                </div><!--final da caixa de formaçãotrabalho-->
+
+                <div class="formacao-box">
+                    <img src="images/extensao.png">
+                    <h3>Extensão e Pesquisa</h3>
+                    <p>Fui monitora bolsista de introdução a Economia na UFF, onde também fiz parte do Centro Academico. <br> Além disso, também fui bolsista de iniciação tecnológica no projeto Portal Atlas Norte Fluminense</p>
+                </div><!--final da caixa de formaçãotrabalho-->
+
+
+            </div> <!-- final da classe flex-->
+        </div><!---final da interface formação-->
+    </section> <!--final da formação academica-->
+
+    <section class="Projetos" id="projetos">
+        <div class="interface">
+        <h2 class="titulo">PORTFÓLIO DE PROJETOS</h2>
+            <div class="flex">
+            <div class="img-projeto" style="background-image: url(images/atlas.jpeg) ;"> 
+                <div class="overlay"> Projeto Atlas Norte Fluminense </div>
+            </div> <!--div do Projeto1-->
+
+            <div class="img-projeto" style="background-image: url(images/figma.png);"> 
+                <div class="overlay"> Projeto Loja no Figma</div>
+            </div> <!-- div do Projeto2-->
+
+            </div><!--final flex-->
+        </div> <!--final interface-->
+    </section><!--final dos projetos-->
+
+    <section class="Contato" id="contato">
+        <div class="interface">
+            <h2 class="titulo">CONTATO</h2>
+            <div class="flex">
+                <div class="contato-box">
+                    <img src="images/nome.png">
+                    <h3>Nome</h3>
+                    <p>Nathalia de Almeida Souza</p>
+                </div><!--final da caixa de nome-->
+
+                <div class="contato-box">
+                    <img src="images/linkedin.png">
+                    <h3> LinkedIn</h3>
+                    <li><a href="https://www.linkedin.com/in/nathalia-souza-27808b260"> Link </a></li>
+                </div><!--final da caixa de linkedin-->
+
+    </section><!--final dos contatos-->
+    
+    <section class="Formulario" id="formulario">
+      <div class="interface">
+        <h2 class="titulo">FALE COMIGO!</h2>
+            <form> <!--Criando o formulário para o usuario preencher-->
+                 <input type="text" name="" id="" placeholder="Nome" required>
+                 <input type="text" name="" id="" placeholder="Número de telefone">
+                 <input type="text" name="" id="" placeholder="E-mail" required>
+                 <textarea name="" id="" placeholder="Envie uma mensagem" required></textarea>
+                <div class="btn-envio"> <input type="submit" value="ENVIAR"></div>
+            </form>
+      </div> <!--final interface-->
+    </section><!--final do formulario-->
+
+
+</main>
+
+    
+</body>
+</html>
